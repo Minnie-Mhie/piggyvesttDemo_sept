@@ -1,0 +1,210 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    padding-top: 70px;
+}
+.na{
+    color: #0d1422;
+    font-weight: 600;
+}
+.butt1{
+    color: #0d1422;
+    font-weight: 500;
+}
+.but2{
+    width: 12rem;
+    height: 3.2rem;
+    border-radius: 8px;
+    background-color: #1d1e22; 
+}
+.butt2{
+    font-size: 17px;
+    color: white;
+    align-content: center;
+}
+.nav, a{
+    font-size: 16px;
+    font-weight: 600px;
+    text-decoration: none;
+}
+.sec1{
+    background-color: #f2f7f8; 
+    height: 800vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.lady{
+    position: absolute;
+    width: 29rem;
+    height: 30rem;
+    top: 4%;
+    
+}
+.ladydiv{
+    position: relative;
+    height: 10%;
+    width: 30%;
+    top: 2.5%;
+    /* left: 58%; */
+    animation-name: lady;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes lady {
+     0%{
+     
+        transform: translateY(0px);
+    }
+    40%{
+        
+        transform: translateY(-50px);
+    }
+    60%{
+        
+        transform: translateY(-25px);
+    }
+}
+.ladydiv:hover {
+  animation-play-state: paused;
+}
+.safelock{
+    width: 45%;
+    position: absolute;
+    top: 16%;
+    left: -15%;
+}
+.Target{
+    width: 55%;
+    position: absolute;
+    top: 10%;
+    right: -29%;
+}
+.flex_naira{
+    width: 45%;
+    position: absolute;
+    top: 44%;
+    left: -16%;
+}
+.investify{
+    width: 53%;
+    position: absolute;
+    top: 54%;
+    right: -29%;
+}
+.piggy_bank{
+    width: 45%;
+    position: absolute;
+    top: 76%;
+    left: -16%;
+}
+.house_money{
+    width: 53%;
+    position: absolute;
+    top: 88%;
+    right: -27%;
+}
+.better_way{
+    position: relative;
+    top: 4.4%;
+    left: -4%;
+    width: 29%;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.buy2{
+    width: 88%;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 0;
+    background-color: #0089ff;
+    color: aliceblue;
+    padding: 13px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+.buy2:hover{
+    background-color: #0d1422;
+    color: white;
+}
+.roll{
+    width: 6%;
+    animation-name: roll;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    transform-origin: 50% 50%;
+    animation-iteration-count: infinite;
+}
+.rolls{
+    width: 6%;
+}
+@keyframes roll {
+    to{
+        transform: rotate(360deg);
+    }
+}
+.better_way{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.better_way>h1{
+    font-size: 45px;
+}
+.better_way>p{
+    font-size: 20px;
+}
+.buydiv{
+    display: flex;
+    gap: 20px;
+}
+.buy3:hover{
+    transform: translateY(-8px);
+}
+.android{
+    width: 15%;
+}
+.apple{
+    width: 11%;
+}
+.hover-box {
+    position: relative;
+  overflow: hidden;
+  transition: background-color 0.3s ease;
+  background-color: #ffffff;
+}
+
+/* .fly-img {
+  position: absolute;
+  width: 60%;
+  bottom: -120px;
+  left: 80%;
+  opacity: 0;
+  transition: all 0.6s ease-out;
+} */
+ .fly-img {
+  position: absolute;
+  width: 60%;
+  height: auto;
+  bottom: 0px; /* Start hidden below */
+  left: 60%;
+  opacity: 0;
+  transition: transform 0.6s ease-out;
+  transform: translate(100%, 100%);
+}
+ .hover-box:hover .fly-img {
+  bottom: 0rem;
+  left: 10rem;
+  opacity: 1;
+  transform: translate(0, 0);
+}
+.hover-box:hover{
+  background-color: #0089ff;
+  color: white;
+}
