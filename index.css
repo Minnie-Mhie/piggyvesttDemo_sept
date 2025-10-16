@@ -31,8 +31,8 @@ body{
     text-decoration: none;
 }
 .sec1{
-    background-color: #f2f7f8; 
-    height: 800vh;
+    background-color: #7dbfcc; 
+    height: 430vh;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
@@ -75,37 +75,37 @@ body{
 .safelock{
     width: 45%;
     position: absolute;
-    top: 16%;
+    top: 26%;
     left: -15%;
 }
 .Target{
     width: 55%;
     position: absolute;
-    top: 10%;
+    top: 20%;
     right: -29%;
 }
 .flex_naira{
     width: 45%;
     position: absolute;
-    top: 44%;
+    bottom: 0rem;
     left: -16%;
 }
 .investify{
     width: 53%;
     position: absolute;
-    top: 54%;
+    bottom: -3rem;
     right: -29%;
 }
 .piggy_bank{
     width: 45%;
     position: absolute;
-    top: 76%;
+    bottom: -10rem;
     left: -16%;
 }
 .house_money{
     width: 53%;
     position: absolute;
-    top: 88%;
+    bottom: -15.5rem;
     right: -27%;
 }
 .better_way{
