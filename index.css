@@ -34,9 +34,6 @@ body{
     background-color: #f2f7f8; 
     /* height: 430vh; */
     padding-top: 150px;
-    /* display: flex; */
-    /* justify-content: space-around; */
-    /* align-items: flex-start; */
 }
 .sec1{
     background-color: #f2f7f8;
@@ -51,7 +48,7 @@ body{
 .ladydiv{
     position: relative;
     height: 10%;
-    width: 30%;
+    width: 36%;
     top: 2.5%;
     animation-name: lady;
     animation-duration: 5s;
@@ -76,54 +73,59 @@ body{
   animation-play-state: paused;
 }
 .safelock{
-    width: 45%;
+    width: 42%;
     position: absolute;
     top: 4rem;
-    left: -15%;
+    left: -12%;
 }
 .Target{
-    width: 55%;
+    width: 42%;
     position: absolute;
     top: 2rem;
-    right: -29%;
+    right: -5%;
 }
 .flex_naira{
-    width: 45%;
+    width: 40%;
     position: absolute;
     top: 13rem;
-    left: -16%;
+    left: -12%;
 }
 .investify{
-    width: 53%;
+    width: 42%;
     position: absolute;
     top: 16rem;
-    right: -29%;
+    right: -7%;
 }
 .piggy_bank{
-    width: 45%;
+    width: 38%;
     position: absolute;
     top: 23rem;
-    left: -16%;
+    left: -12%;
 }
 .house_money{
-    width: 53%;
+    width: 43%;
     position: absolute;
     top: 27rem;
-    right: -27%;
+    right: -5%;
 }
 .better_way{
     position: relative;
     top: 4.4%;
     left: -4%;
-    width: 29%;
+    width: 32%;
     font-family: "Plus Jakarta Sans", sans-serif;
 }
-/* @media (max-width: 768px){
-    .better_way {
-        width: 50%;
-        flex-direction: row;
-    }
-} */
+@media (max-width: 768px){
+        .better_way{
+            width: 68%;
+            text-align: center;
+        }
+        .lady{
+            margin-top: 40%;
+            position: relative;
+            left: -30%;
+        }
+}
 .buy2{
     width: 88%;
     border-radius: 25px;
