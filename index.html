@@ -13,9 +13,13 @@
    <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow p-3 bg-body-tertiary">
   <div class="container-fluid">
-    <img src="./media/Piggyvest/Piggyvest01.svg" alt="" class="logo mx-4 px-5">
-    <div class="collapse navbar-collapse">
-       <div class="navbar-nav me-auto">
+    <img src="./media/Piggyvest/Piggyvest01.svg" alt="" class="logo">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+       <div class="navbar-nav me-auto align-items-lg-center text-center">
         <a class="nav-link fw-bolder" href="#">Save</a>
         <a class="nav-link fw-bolder" href="#">Invest</a>
         <a class="nav-link fw-bolder" href="#">Stories</a>
@@ -33,68 +37,8 @@
     </div>
   </div>
 </nav>
-<!-- <nav class="navbar bg-body-danger fixed-top">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-        <img src="./media/Piggyvest/Piggyvest01.svg" alt="" class="logo">
-    </a> 
-    <a class="navbar-brand" href="#">
-        <img src="./media/Piggyvest/Piggyvest01.svg" alt="" class="logo mx-4 px-5">
-    </a>
-    <a class="navbar-brand" href="#">
-        <img src="./media/Piggyvest/Piggyvest01.svg" alt="" class="logo">
-    </a>
-    <a class="navbar-brand" href="#">
-        <img src="./media/Piggyvest/Piggyvest01.svg" alt="" class="logo">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-            <img src="./media/Piggyvest/Piggyvest01.svg" alt="" class="logo mx-4 px-5">
-        </h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
-      <div class="offcanvas-body">
-        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Save</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Invest</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Stories</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">FAQs</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Resources
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-        </ul>
-        <form class="d-flex mt-3" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-          <button class="btn btn-outline-success" type="submit">Search</button>
-          
-        </form>
-      </div>
-    </div>
-  </div>
-</nav> -->
-   </header>
+</header>
+
    <section class="sec1 container-fluid">
    <div class="secD d-flex justify-content-around flex-lg-row flex-column align-items-center align-items-lg-start">
      <div class="better_way align-items-center align-items-lg-start justify-content-center ms-lg-5 ms-5">
@@ -129,14 +73,14 @@
     </div>
    </div>
 
-            <div class="d-flex flex-column flex-lg-row justify-content-between position-relative" style="width: 50.8rem; height: 40rem;">
-    <div class="position-absolute /bottom-0 bottom-50 start-0 ms-5">
+<div class="d-flex flex-column flex-lg-row justify-content-center text-center text-lg-start justify-content-lg-between py-5 my-5 px-5 mx-5 gap-3">
+    <div class="">
         <button class="btn bg-white px-3 py-5 rounded-5">
             <ion-icon name="lock-closed" class="bi bi-lock-fill text-primary-emphasis px-4" size="large"></ion-icon>
         </button>
     </div>
-        <div class="position-absolute /bottom-0 bottom-50 end-0 ms-5 px-4" style="width: 40.8rem;">
-                <h3 class="fs-4 fw-bold">Your security is our priority</h3>
+        <div class="sec" style="width: 40.8rem;">
+                <h3 class="fs-4 fw-semibold">Your security is our priority</h3>
             <p>
             PiggyVest uses the highest level of Internet Security and it is secured by 256 bits SSL security encryption to  ensure that your information is completely protected from fraud.
             </p>
@@ -145,12 +89,12 @@
                     More on our security measures
             </a>
         </div>
-        <div class="position-absolute bottom-0 start-0 px-5 ms-5" style="width: 70.8rem;">
-    <h1 class="fw-bolder px-4 ms-5">Many ways to build your savings</h1>
-<p class="fs-5 px-5 ms-5 py-2">Earn 12%-20% when you save with any of these Piggyvest plans.</p>
 </div>
+  <div class="px-lg-5 ms-lg-5">
+    <h1 class="fw-bolder px-lg-4 ms-lg-5" style="font-size: 48px;">Many ways to build your savings</h1>
+<p class="fs-3 px-lg-4 px-2 ms-lg-5 py-2">Earn 12%-20% when you save with any of these Piggyvest plans.</p>
 </div>
-    <div style="grid-template-columns: 1fr 1fr; width: 65rem;" class="d-grid position-relative gap-3 row-gap-3 ms-5 px-5">
+    <div class="boxes ms-5 px-5">
         <div class="p-2">
             <div class="p-2 hover-box rounded-5" style="height: 28rem; width: 28rem;">
                 <div class="ms-4 py-4">
@@ -207,13 +151,13 @@
             </div>
         </div>
         <div class="p-2">
-            <div class="p-2 hover-box rounded-5" style="height: 28rem; width: 28rem;">
+            <div class="p-2 hover-box housebox text-hover-success rounded-5" style="height: 28rem; width: 28rem;">
                 <div class="ms-4 py-4">
-                    <h1 class="fs-1 fw-bolder text-warning">House Money</h1> <p class="fs-5">Plan for your rent and household <br> expenses
+                    <h1 class="fs-1 fw-bolder house">House Money</h1> <p class="fs-5">Plan for your rent and household <br> expenses
                 </div>
                         <img src="./media/Piggyvest/Piggyvest24.png" alt="Flying image" class="fly-img img-fluid rounded shadow">
-                    <div class="position-absolute bottom-0 py-5 mt-5 text-warning">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-corner-down-right"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6 6v6a3 3 0 0 0 3 3h10l-4 -4m0 8l4 -4" /></svg> <span>House Money</span>
+                    <div class="position-absolute bottom-0 py-5 mt-5 house">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-corner-down-right"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6 6v6a3 3 0 0 0 3 3h10l-4 -4m0 8l4 -4" /></svg> <span class="house">House Money</span>
                     </div>
             </div>
         </div>
@@ -222,62 +166,69 @@
 
 <section class="p-5 bg-light" style="height: 63rem;">
     <div>
-             <div class="d-flex align-items-center justify-content-center px-5 ms-5 py-5" style="width: 70.8rem;">
+             <div class="d-flex align-items-center justify-content-center px-lg-5 ms-lg-5 py-5">
             <div class="row">
                <div class="col text-center">
-                     <h1 class="fw-semibold" style="font-size: 55px;">Diverse ways to Invest</h1>
+                     <h1 class="fw-semibold px-lg-4 ms-lg-5 diverse">Diverse ways to Invest</h1>
 <p class="fs-4">Grow your money and invest for your future confidently.</p>
             </div> 
                </div>   
     </div>
     
-        <div class="p-2 hover-box rounded-5 bigD">
-            <div class="p-5">
-                <div class="ms-4 py-4 w-50">
-                    <h1 class="fs-1 fw-semibold text-light">Earn Up to 35% returns</h1> <p class="fs-5 py-4" style="color: #f3bcf8;">Invest securely and confidently <br>on the go. Grow your money <br> confidently by investing in pre- <br>vetted investment <br> opportunities.
+        <div class="p-2 hover-box rounded-5 d-flex justify-content-center align-items-center text-center bg-lg-dark text-lg-start flex-wrap justify-content-lg-between m-5 align-items-lg-start flex-column flex-lg-row bigD">
+            <div class="p-lg-5">
+                <div class="py-lg-5">
+                    <h1 class="fs-1 py-lg-5 fw-semibold text-light">Earn Up to 35% returns</h1> 
+                    <p class="fs-5 py-lg-4" style="color: #f3bcf8;">Invest securely and confidently <br>on the go. Grow your money <br> confidently by investing in pre- <br>vetted investment <br> opportunities.
+                    </p> 
                 </div>
-                        <img src="./media/Piggyvest/Piggyvest24.png" alt="Flying image" class="fly-img2 img-fluid rounded">
-                    <div class="position-absolute bottom-0 py-5 mt-5 px-4 text-light">
+                    <div class="text-light">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-corner-down-right"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6 6v6a3 3 0 0 0 3 3h10l-4 -4m0 8l4 -4" /></svg>
                         <span class="fw-semibold">
                             <a href="" class="text-light text-decoration-none">Learn about investment</a>
                         </span>
                     </div>
             </div>
+        
+            <div class="mt-lg-5 mb-lg-5 py-5">
+                <img src="./media/Piggyvest/Piggyvest24.png" alt="Flying image" class="fly-img2 img-fluid rounded">
+            </div>
+        
         </div>
 </section>
 
-<section class="sec2 p-5">
+<section class="sec2 p-5 py-5">
     <div>
-        <div class="d-flex align-items-center justify-content-center px-5 ms-5 py-5" style="width: 70.8rem;">
-            <div class="row">
-                <div class="col text-center">
-                    <h1 class="fw-semibold" style="font-size: 55px;">Meet Our Saver of the Month</h1>
-                        <p class="fs-4">Every month, we shine a spotlight on one saver, asking them about their <br> savings culture and how Piggyvest has helped them.</p>
+        <div class="d-flex align-items-center justify-content-center px-lg-5 ms-lg-5 py-5">
+            <div class="row p-1">
+                <div class="col text-center cols">
+                    <h1 class="fw-semibold  px-lg-4 ms-lg-5 meet">Meet Our Saver of the Month</h1>
+                        <p class="fs-6 fs-lg-4">Every month, we shine a spotlight on one saver, asking them about their <br> savings culture and how Piggyvest has helped them.</p>
                 </div>
         <div class="row">
                 <div class="p-2 rounded-5 bigD2 /bg-dark col text-center">
-                    <iframe width="791" height="445" src="https://www.youtube.com/embed/KBh-0o5hiIw" title="Piggyvest Saver of the Month - Joy Panam aka Lady J" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="h-100 bg-light rounded-4 border border-white border-5"></iframe>
+                    <iframe width="791" class="frame" height="445" src="https://www.youtube.com/embed/KBh-0o5hiIw" title="Piggyvest Saver of the Month - Joy Panam aka Lady J" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="h-100 bg-light rounded-4 border border-white border-5"></iframe>
         </div> 
             </div>  
             </div> 
         </div>
-<div style="grid-template-columns: 1fr 1fr; width: 67rem;" class="d-grid position-relative gap-3 row-gap-3 ms-5 py-5 px-5">
+        
+<div style="grid-template-columns: 1fr 1fr;" class="meet d-grid gap-3 row-gap-3 ms-5 py-5 px-5">
         <div class="p-2 py-5">
-                <div class="ms-5 py-5">
-                    <img src="./media/Piggyvests1.png" alt="" class="h-50">
+                <div class="ms-5 py-5 w-50 w-lg-100">
+                    <img src="./media/Piggyvests1.png" alt="" class="h-25 h-lg-100">
                 </div>
         </div>
-        <div class="p-2 py-5">
-                <div class="w-100 py-5 mt-5">
+        <div class="py-5">
+                <div class="py-5 mt-5">
                     <p class="fs-2 fw-bold">
                         Join 5+ million people who save and invest with us
                     </p>
                      <div class="buydiv">
-                    <button class="btn border border-1 border-dark btn-sm h-50 btn-transparent rounded">
+                    <button class="btn border border-1 border-dark btn-sm h-lg-50 h-25 btn-transparent rounded">
                         <img src="./media/Piggyvest1 (1).svg" alt="" class="apple">Get on iPhone
                     </button>
-                    <button class="btn border border-1 border-dark btn-sm h-50 btn-transparent rounded">
+                    <button class="btn border border-1 border-dark btn-sm h-25 btn-transparent h-lg-50 rounded">
                         <img src="./media/Piggyvest/Piggyvest15.svg" alt="" class="android">Get on Android
                     </button>
                 </div>
@@ -289,7 +240,7 @@
 
 <section class="h-75 p-5">
     <div>
-        <div class="d-flex align-items-center justify-content-center px-5 ms-5 py-5" style="width: 70.8rem;">
+        <div class="d-flex flex-column align-items-center justify-content-center px-5 ms-5 py-5">
             <div class="row">
                 <div class="col text-center">
                     <h2 class="fw-bold">As featured in</h2>
@@ -373,7 +324,7 @@
         <p class="formerly text-primary m-5">
             2016 - 2025 PiggyTech Global Limited - RC 1405222
         </p>
-</footer>
+</footer> 
 
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
