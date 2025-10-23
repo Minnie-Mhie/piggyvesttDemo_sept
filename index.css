@@ -42,8 +42,7 @@ body{
     position: absolute;
     width: 29rem;
     height: 30rem;
-    top: 4%;
-    
+    top: 4%; 
 }
 .ladydiv{
     position: relative;
@@ -291,5 +290,5 @@ li:hover{
         }
         .frame{
             width: 70%;
-        }
+        }    
 }
